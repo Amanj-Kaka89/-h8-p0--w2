@@ -1,7 +1,8 @@
 
 function konversiMenit(menit) {
     var jam=Math.floor(menit/60);
-    return jam +":"+ (menit - (jam*60));
+    var minutes=menit - (jam*60);
+    return jam +":"+(minutes <10 ? "0" : "") +(menit - (jam*60));
     }
        
     
