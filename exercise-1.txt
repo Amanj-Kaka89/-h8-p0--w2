@@ -1,0 +1,77 @@
+1--
+ALGORIRTHM:
+1.Set the value of mass of objects in (kg)
+2.Set the value of acceleration of objects(m/s2)
+3.Calculate the multiplication of mass and acceleration
+4.Set the result of the multiplication as resultant force
+5.Display resultant force
+________________
+PSEUDOCODE:
+STORE "mass of objects" with any numeric number (600)
+STORE "acceleration of objects" to any numeric number (2)
+STORE "resultant force" with and empty value
+
+CALCULATE "mass of projects" multiply "acceleration of objects"
+SET "resultant force" value equal to calculation result
+DISPLAY "resultant force" 
+************************************************
+2--
+ALGORITHM:
+1. Set year with any numeric number
+2. Check whether the year mentioned is a leap year or not
+   2.a: If the year runs out for 4 and does not run out for 100,then
+        display that the year is a lean year
+   2.b: If the year runs out for 4, finish at 100 and run out for 400
+        then display that the year is a lean year
+   2.c: If any other option diffrent with a and b then shows that year
+        is not a lean year.
+______________________
+PSEUDOCODE:
+STORE "year" with any numeric value
+IF "year" mod 4 EQUALS 0 AND "year" mod 100 NOT EQUALS 0
+   DISPLAY "this year is leap year.February is 29 days!"
+ELSE IF "year" mod  4 EQUALS 0 AND "year" mod 100 EQUALS 0 and "year" mod 400 EQUALS 0
+   DISPLAY "this year is leap year.February is 29 days!"
+ELSE
+   DISPLAY "this year is not a leap year.february is 28 days"
+END IF
+**************************************************
+3--
+ALGORITHM:
+1.Set any numeric value for maximum clothes foxie washes (20)
+2.Set the value of counter starting from 0
+3.Put the foxie clothes inside the washing mashine and count them in the same time. 
+  for each one you put in the washing mashine.add one to counter
+4.When all the clothes was put inside .turn on the washing mashine
+_____________________________
+PSEUDOCODE:
+STORE "max washiong" with any numeric value.
+STORE "counter" = 0
+WHILE "counter" LESS THAN "max washing"
+    DISPLAY "put more of your clothes inside the washing mashine","add one to counter for any clothes"
+END WHILE
+********************************************
+4.ALGORITHM:
+1.Set the total number of students in class with any numeric number(40)
+2.Set counter starting from 1
+3.Make a rollcall to call all the students
+4.Check whether the students's nails are long or not.
+  4.a:check if the student's nails are long,then make a punihsment.
+  4.b:check if the student's nails are short,then praise those students
+counter increased by 1.
+______________________________
+PSEUDOCODE:
+STORE "total students" value with any numeric number (40)
+STORE "long nails" EQUALS to true
+STORE "counter" = 1
+
+WHILE "counter" LESS THAN "total students" + 1
+  DISPLAY "students to - ", "counter"
+  IF "long nails" EQUALS true
+    DISPLAY "you've got panishment!"
+  ELSE
+    DISPLAY "Good boy/girl,thank you for cutting your nails in routine"
+  END IF
+  ADD "counter" by 1
+END WHILE
+2.
